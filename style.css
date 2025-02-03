@@ -1,1 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    /* background: hsl(210, 36%, 96%); */
+    background-color: black;
+    /* color:  hsl(209, 61%, 16%); */
+    color:#fff;
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+    img {
+        max-width: 8%;
+        height: auto;
+        border-radius: 20px;
+        margin: 20px;
+    }
