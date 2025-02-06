@@ -58,3 +58,26 @@ body {
     main h1 {
         margin-left: 20%;
     }
+    #totTask{
+        margin-left: 20%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        height: 10vh;
+        /* background-color: peachpuff; */
+        width: 60%;
+        margin-left: 20%;
+        /* padding:5%; */
+        margin-top: 2%;
+    }
+    #overdueBtn{
+      height: 20px;
+      border: none;
+      outline: none;
+      border-radius: 9px;
+      background-color: black;
+      color: tomato;
+      cursor: pointer;
+    }
