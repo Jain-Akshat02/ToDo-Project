@@ -1,5 +1,5 @@
 
-li<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,6 @@ li<!DOCTYPE html>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <script src="script.js" defer></script>
 </head>
 <body>
         <nav>
@@ -26,13 +25,21 @@ li<!DOCTYPE html>
             <span id="totTask"> <i class="fa-regular fa-circle-check"></i> {Total} Task</span>
             <div class="container">
                 <h2>
-                    Overdue
+                    <i id="icons" class="fa-solid fa-chevron-right"></i> Overdue
                 </h2>
                 <button id="overdueBtn">
                     Reschedule
                 </button>
             </div>
+            <ul class="taskList">
+                <li>
+                    <div id="taskBox">Click to add task</div>
+                </li>
+            </ul>
+           
+                
             
         </main>
+        <script src="script.js" defer></script>
 </body>
 </html>

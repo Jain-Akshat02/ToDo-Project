@@ -81,3 +81,45 @@ body {
       color: tomato;
       cursor: pointer;
     }
+    .taskList{
+      display: flex;
+      justify-content: center;
+
+    }
+    #taskBox {
+      background-color: rgba(73, 72, 72, 0.5); /* Semi-transparent background */
+      color: white; /* Text color */
+      padding: 10px; /* Padding inside the box */
+      border-radius: 5px; /* Rounded corners */
+      height: 60px;
+      display: flex;
+      cursor: pointer; /* Pointer cursor on hover */
+      width: 400px; /* Width of the box */
+      margin: 10px auto; /* Center the box horizontally */
+      height: 60px;
+      font-size: larger;
+      font-family: 'Roboto', sans-serif;
+  }
+  #icons{
+    font-size: 13px;
+    position: relative;
+    top: -3px;
+
+  }
+  #icons:hover{
+    color: tomato;
+  }
+  #icons:hover::after{
+    content: "Expand";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px 25px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    top: -30px; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 12px; /* Adjust font size as needed */
+    z-index: 10;
+  }
