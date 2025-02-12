@@ -72,7 +72,7 @@ body {
         /* padding:5%; */
         margin-top: 2%;
     }
-    #overdueBtn{
+    #recheduleBtn{
       height: 20px;
       border: none;
       outline: none;
@@ -99,6 +99,7 @@ body {
       height: 60px;
       font-size: larger;
       font-family: 'Roboto', sans-serif;
+      border: none;
   }
   #icons{
     font-size: 13px;
@@ -122,4 +123,5 @@ body {
     white-space: nowrap; /* Prevent text from wrapping */
     font-size: 12px; /* Adjust font size as needed */
     z-index: 10;
+    font-family:monospace;
   }
