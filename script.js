@@ -4,17 +4,23 @@ const rescheduleBtn= document.getElementById('rescheduleBtn');
 const icons= document.getElementById('icons');
 
 let tasks=[];
+
 taskBox.addEventListener('keypress', (e) =>{
     if (e.key=== 'Enter') {
         let taskText= taskBox.value.trim();
         if (taskText!=='') {
+            const newTask={
+                id: Date.now(),
+                text:taskText,
+                Completed: false
+            }
+            tasks.push(newTask);
+            saveTasks();
             taskBox.value='';
-            tasks.push(taskText);
-            console.log(tasks);
+            
             
     }else{
-        console.log(tasks);
-        
+        return
     }
 }});
 //     let addbtn=document.createElement('button')
@@ -31,6 +37,12 @@ taskBox.addEventListener('keypress', (e) =>{
     
     
 // })
+function saveTasks(){
+   localStorage.setItem('tasks', JSON.stringify(tasks)); 
+}
+function renderTask(task){
+    
+}
     
     
 });
