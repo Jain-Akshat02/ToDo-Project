@@ -9,10 +9,10 @@
 }
 body {
     font-family: "Open Sans", sans-serif;
-    background: hsl(210, 36%, 96%);
+    background: #e9f1f7;
     background-color: black;
     /* color:  hsl(209, 61%, 16%); */
-    color:#fff;
+    color:#ffffff;
     line-height: 1.5;
     font-size: 0.875rem;
   }
@@ -21,7 +21,7 @@ body {
   }
   a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     background-color: rgb(59, 57, 57);
   }
    img {
@@ -36,7 +36,7 @@ body {
         align-items: center;
         /* padding: 1rem 0.5rem; */
         /* background-color: #333; */
-        color: #fff;
+        color: #ffffff;
     }
     #barsIcon{
         padding-left: 0px;
@@ -78,7 +78,7 @@ body {
       outline: none;
       border-radius: 9px;
       background-color: black;
-      color: tomato;
+      color: rgba(255, 99, 71, 1);
       cursor: pointer;
     }
     .taskList{
@@ -108,13 +108,13 @@ body {
 
   }
   #icons:hover{
-    color: tomato;
+    color: rgba(255, 99, 71, 1);
   }
   #icons:hover::after{
     content: "Expand";
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white; /* Text color */
+    color: #ffffff; /* Text color */
     padding: 10px 25px; /* Padding inside the box */
     border-radius: 5px; /* Rounded corners */
     top: -30px; /* Position above the icon */
