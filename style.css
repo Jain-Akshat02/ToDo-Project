@@ -33,13 +33,14 @@ a {
   height: 100vh;
   position: fixed;
   left: 0;
-  top: 10;
+  top: 0;
   background-color: #0D1117;
   color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .sidebar h2 {
@@ -61,6 +62,7 @@ a {
 .sidebar ul li a:hover {
   background-color: #1A1E26;
 }
+
 
 /* Subscription Box */
 .subscribe {
@@ -98,10 +100,15 @@ a {
 /* Navbar */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   color: white;
+  margin-top: 20px;
 }
+/* .primaryDiv {
+  display: flex;
+  align-items: center;
+} */
 
 #barsIcon {
   margin-left: 15px;
@@ -133,7 +140,7 @@ main h1,
   margin-top: 2%;
 }
 
-#recheduleBtn {
+#rescheduleBtn {
   height: 20px;
   border: none;
   border-radius: 9px;
@@ -189,10 +196,10 @@ main h1,
   font-family: monospace;
 }
 .logo{
-  width: 100px;
+  width: 80px;
   /* height: 100px; */
   margin-left: 20%;
-  margin-top: 10%;
+  margin-top: 2%;
   display: flex;
   border-radius: 20px;
   position: relative;
